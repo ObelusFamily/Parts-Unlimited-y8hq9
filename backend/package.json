@@ -1,5 +1,10 @@
 {
   "name": "PartsUnlimited",
   "private": true,
-  "dependencies": {}
+  "scripts" : {
+    "start": "rails s"
+  },
+  "dependencies": {
+    "react-scripts": "^4.0.3"
+  }
 }
