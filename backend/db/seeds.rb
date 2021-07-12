@@ -20,7 +20,7 @@ user_list = [
             {
                 "title" => "Criminology", 
                 "description" => "Plato believed that crime was the result of a lack of education",
-                "image" => "https://source.unsplash.com/featured/?criminology",
+                "image" => "",
                 "tag_list" => [ "Crime", "Philosophy"]
 
             },
