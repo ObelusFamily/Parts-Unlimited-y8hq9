@@ -80,9 +80,9 @@ Favorite.create( user_id: User.find_by( email: 'diana_perez@test.com').id, item_
 Favorite.create( user_id: User.find_by( email: 'diana_perez@test.com').id, item_id:created_items[1].id )
 Favorite.create( user_id: User.find_by( email: 'ricardo_tapia@test.com').id, item_id:created_items[2].id )
 
-#Follows
-Follow.create(followable_id: User.find_by( email: 'diana_perez@test.com').id, follower_id: User.find_by( email: 'ricardo_tapia@test.com').id)
-Follow.create(followable_id: User.find_by( email: 'bruno_diaz@test.com').id, follower_id: User.find_by( email: 'ricardo_tapia@test.com').id)
+# #Follows
+# Follow.create(followable_id: User.find_by( email: 'diana_perez@test.com').id, follower_id: User.find_by( email: 'ricardo_tapia@test.com').id)
+# Follow.create(followable_id: User.find_by( email: 'bruno_diaz@test.com').id, follower_id: User.find_by( email: 'ricardo_tapia@test.com').id)
 
 #Comments
 comments_list = [
